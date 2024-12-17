@@ -1,0 +1,76 @@
+.app {
+  text-align: center;
+}
+
+.create-btn {
+  margin: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.list-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+  height: 1000px; /* Fixed height for the container */
+  overflow-y: auto;   /* Add scrollbar for list items */
+}
+
+.list-container.selected {
+  border-color: blue;
+}
+
+.list-checkbox {
+  margin-right: 10px;
+}
+
+.list-items-container {
+  max-height: 500px;  /* Max height for the list items section */
+}
+
+.list-item {
+  padding: 5px;
+}
+
+
+.selected {
+  border-color: blue;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.item-buttons button {
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.update-btn,
+.cancel-btn {
+  margin: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.update-btn {
+  background-color: green;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: red;
+  color: white;
+}
